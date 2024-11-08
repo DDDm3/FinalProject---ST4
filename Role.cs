@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Project_KTMH
 {
@@ -11,11 +10,13 @@ namespace Project_KTMH
         private string permission;
         public bool checkExist = false;
 
-        public Role(string roleID, string roleName, string permission)
+        public string RoleID { get => roleID; }
+        public string RoleName { get => roleName; set => roleName = value; }
+
+        public Role(string roleID, string roleName)
         {
             this.roleID = roleID;
             this.roleName = roleName;
-            this.permission = permission;
         }
 
         public string CheckRoleID(List<Employee> employee, List<Role> role)
@@ -26,7 +27,7 @@ namespace Project_KTMH
             {
                 foreach (Role role1 in role)
                 {
-                    if (emp.EmployeeID() == role1.roleID)
+                    if (emp.EmployeeID1 == role1.roleID)
                     {
                         return role1.roleName;
                     }
@@ -49,6 +50,5 @@ namespace Project_KTMH
         {
 
         }
-
     }
 }

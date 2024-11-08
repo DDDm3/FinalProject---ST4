@@ -1,133 +1,123 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Xml.Linq;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
 
 namespace Project_KTMH
 {
     public class Employee : Person
     {
-        private string employeeID;
-        private string roleID;
-        private string departmentID;
-        private int paidleave;
+        [JsonInclude]
+        public string EmployeeID1 { get; private set; }
+        [JsonInclude]
+        public string RoleID1 { get; private set; }
+        [JsonInclude]
+        public string DepartmentID1 { get; private set; }
+        [JsonInclude]
+        public string RoleName { get; private set; }
 
         public List<Attendance> attendances = new List<Attendance>();
-        public string EmployeeID1 { get => employeeID; set => employeeID = value; }
-        public string RoleID1 { get => roleID; set => roleID = value; }
-        public string DepartmentID1 { get => departmentID; set => departmentID = value; }
-
-        //public string EmployeeID() { return EmployeeID1; }
-        //public string RoleID() { return RoleID1; }
-        //public string DepartmentID() { return DepartmentID1; }
-      
-
-
-        public Employee(string name, string email, DateTime dateofbirth, string phone_num, string address, string employeeID, string roleID, string departmentID)
+        public Employee(string name, string email, DateTime dateofbirth, string phone_num, string address, string employeeID, string roleID, string departmentID, string roleName)
             : base(name, email, dateofbirth, phone_num, address)
         {
             this.EmployeeID1 = employeeID;
             this.RoleID1 = roleID;
+            this.RoleName = roleName;
             this.DepartmentID1 = departmentID;
+            this.attendances = new List<Attendance>();
+            CreateUser();
+        }
+
+        public Employee() : base()
+        {
             this.attendances = new List<Attendance>();
         }
 
-        public void Absent(List<Employee> employees)
+        public void CreateUser()
         {
-            Console.WriteLine("Nhap ma nhan vien: ");
-            string absentemployeeID = Console.ReadLine();
-            foreach (Employee employee in employees)
+            string username = Trans(Name, EmployeeID1);
+            string password = EmployeeID1;
+            User user = new User(username, password);
+            UserManager.Instance.AddUser(user);
+        }
+
+        private string Trans(string name, string employeeid)
+        {
+            string login = name.ToLower();
+            login = Regex.Replace(login.Normalize(NormalizationForm.FormD), @"\p{Mn}", "");
+            login = login.Replace(" ", "");
+            return login + employeeid;
+        }
+
+        public double GetTotalWorkingHours(string employeeID)
+        {
+            int count = 0;
+            foreach ((Employee, Payroll) e in EmployeeList.emp)
             {
-                if (employee.EmployeeID1 == absentemployeeID)
+                if (e.Item1.EmployeeID1 == employeeID)
                 {
-                    employee.paidleave++;
-                }
-            }
-        }
-
-        public int numAbsent(List<Employee> employees, string employeeID)
-        {
-            foreach (Employee employee in employees)
-            {
-                if (employee.EmployeeID1 == employeeID)
-                    return employee.paidleave;
-            }
-            return 0;
-        }
-
-        public void Add(List<Employee> employee)
-        {
-            Console.Write("nhap ten: ");
-            string name= Console.ReadLine();
-            Console.Write("nhap ma cong nhan: ");
-            string employeeID = Console.ReadLine();
-            Console.Write("nhap ma chuc vu: ");
-            string roleID = Console.ReadLine();
-            Console.Write("nhap ma phong ban: ");
-            string departmentID = Console.ReadLine();
-            
-
-            employee.Add(new 
-                Employee(name, employeeID, roleID, departmentID));
-        }
-
-        public void Remove(List<Employee> employee)
-        {
-            Console.Write("Nhap ma nhan vien ban muon xoa: ");
-            string employeeIDtodelete = Console.ReadLine();
-            foreach (Employee emp in employee)
-            {
-                if (emp.EmployeeID1 == employeeIDtodelete)
-                {
-                    employee.Remove(emp);
-                }
-            }
-        }
-
-        public void Update(List<Employee> employee)
-        {
-            Console.Write("Nhap ma nhan vien ban muon chinh sua: ");
-            string employeeIDtoupdate = Console.ReadLine();
-            foreach (Employee emp in employee)
-            {
-                if (emp.EmployeeID1 == employeeIDtoupdate)
-                {
-                    Console.Write("Nhap vi tri ban muon sua: ");
-                    int vitri = int.Parse(Console.ReadLine());
-                    switch (vitri)
+                    foreach (Attendance a in e.Item1.attendances)
                     {
-                        case 1:
-                            {
-                                Console.Write("nhap ten moi: ");
-                                string tenmoi = Console.ReadLine();
-                                string employeeID = tenmoi;
-                            }
-                            break;
-                        case 2:
-                            {
-                                Console.Write("nhap ma nhan vien moi: ");
-                                string newemployeeid = Console.ReadLine();
-                                emp.EmployeeID1 = newemployeeid;
-                            }
-                            break;
-                        case 3:
-                            {
-                                Console.Write("nhap ma chuc vu moi: ");
-                                string newroleid = Console.ReadLine();
-                                emp.RoleID1 = newroleid;
-                            }
-                            break;
-                        case 4:
-                            {
-                                Console.Write("nhap ma phong ban moi: ");
-                                string newdepartmentid = Console.ReadLine();
-                                emp.DepartmentID1 = newdepartmentid;
-                            }
-                            break;                   
+                        if (a.CheckIn && a.CheckOut)
+                        {
+                            count += 8;
+                        }
                     }
                 }
             }
+            return count;
+        }
+
+        public int GetLateDaysCount(string employeeID)
+        {
+            int count = 0;
+            foreach((Employee,Payroll) e in EmployeeList.emp)
+            {
+                if(e.Item1.EmployeeID1 == employeeID)
+                {
+                    foreach(Attendance a in e.Item1.attendances)
+                    {
+                        if(a.Status == "late")
+                        {
+                            count++;
+                        }    
+                    }    
+                }    
+            }    
+            return count;
+        }
+
+        public int GetAbsentDaysCount( string employeeID)
+        {
+            int count = 0;
+            foreach ((Employee,Payroll) e in EmployeeList.emp)
+            {
+                if (e.Item1.EmployeeID1 == employeeID)
+                {
+                    foreach(Attendance a in e.Item1.attendances)
+                    {
+                        if(!a.CheckIn)
+                        {
+                            count ++;
+                        }    
+                    }
+                }         
+            }
+            return count;
+        }
+
+        public override void UpdatePersonalDetails(string name, string email, DateTime dateOfBirth, string phone_num, string address)
+        {
+            base.UpdatePersonalDetails(name, email, dateOfBirth, phone_num, address);
+        }
+
+        public void UpdateEmployee(string name, string email, DateTime dateOfBirth, string phoneNum, string address, string roleID, string departmentID, string roleName)
+        {
+            UpdatePersonalDetails(name, email, dateOfBirth, phoneNum, address);
+            this.RoleID1 = roleID;
+            this.RoleName = roleName;
+            this.DepartmentID1 = departmentID;
         }
     }
 }

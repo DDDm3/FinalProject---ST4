@@ -1,37 +1,52 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Text.Json.Serialization;
 
 namespace Project_KTMH
 {
     public abstract class Person
     {
-        public string Name { get; }
-        public string Email { get; }
-        public DateTime DateOfBirth { get; }
-        public string Phone_num { get; set; }
-        public string Address { get; set; }
+        private string name;
+        private string email;
+        private DateTime dateOfBirth;
+        private string phone_num;
+        private string address;
 
-        public int Age
-        {
-            get
-            {
-                return DateTime.Now.Year - DateOfBirth.Year;
-            }
-        }
+        [JsonInclude]
+        public string Name { get; private set; }
+        [JsonInclude]
+        public string Email { get; private set; }
+        [JsonInclude]
+        public DateTime DateOfBirth { get; private set; }
+        [JsonInclude]
+        public string Phone_num { get; private set; }
+        [JsonInclude]
+        public string Address { get; private set; }
 
         protected Person(string name, string email, DateTime dateofbirth, string phone_num, string address)
         {
-            Name = name;
-            Email = email;
-            DateOfBirth = dateofbirth;
-            Phone_num = phone_num;
-            Address = address;
+            this.Name = name;
+            this.Email = email;
+            this.DateOfBirth = dateofbirth;
+            this.Phone_num = phone_num;
+            this.Address = address;
         }
-        public void UpdateContactInfo(string phone_num, string address)
+
+        protected Person()
         {
-            Phone_num = phone_num;
-            Address = address;
+            this.Name = Name;
+            this.Email = Email;
+            this.DateOfBirth = DateOfBirth;
+            this.Phone_num = Phone_num;
+            this.Address = Address;
+        }
+
+        public virtual void UpdatePersonalDetails(string name, string email, DateTime dateOfBirth, string phone_num, string address)
+        {
+            this.Name = name;
+            this.Email = email;
+            this.DateOfBirth = dateOfBirth;
+            this.Phone_num = phone_num;
+            this.Address = address;
         }
     }
 }

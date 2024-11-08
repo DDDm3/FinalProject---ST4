@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\reportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:reportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|c:\\users\\duong\\documents\\zalo received files\\new folder\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\payrollform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:payrollform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\attendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:attendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\payrollform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:payrollform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\attendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:attendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\employeelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:employeelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E465B71-9C37-4588-86E8-C4128E2EBB02}|Project_KTMH.csproj|solutionrelative:department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 157,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\ReportForm.Designer.cs",
+              "RelativeDocumentMoniker": "ReportForm.Designer.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\ReportForm.Designer.cs",
+              "RelativeToolTip": "ReportForm.Designer.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:20:48.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\ReportForm.cs",
+              "RelativeDocumentMoniker": "ReportForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\ReportForm.cs [Design]",
+              "RelativeToolTip": "ReportForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:18:26.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportForm.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\ReportForm.cs",
+              "RelativeDocumentMoniker": "ReportForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\ReportForm.cs",
+              "RelativeToolTip": "ReportForm.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwBgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:10:13.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Report.cs",
+              "RelativeDocumentMoniker": "Report.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Report.cs",
+              "RelativeToolTip": "Report.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwDAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:05:10.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AQIAAFIBAAAAAAAAAAAuwFwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:22:12.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeForm.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\EmployeeForm.cs",
+              "RelativeDocumentMoniker": "EmployeeForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\EmployeeForm.cs",
+              "RelativeToolTip": "EmployeeForm.cs",
+              "ViewState": "AQIAAPUAAAAAAAAAAAAuwAoBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:13:17.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserForm.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\UserForm.cs",
+              "RelativeDocumentMoniker": "UserForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\UserForm.cs",
+              "RelativeToolTip": "UserForm.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:59:51.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Payroll.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Payroll.cs",
+              "RelativeDocumentMoniker": "Payroll.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Payroll.cs",
+              "RelativeToolTip": "Payroll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:16:22.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:22:41.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\UserForm.cs",
+              "RelativeDocumentMoniker": "UserForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\UserForm.cs [Design]",
+              "RelativeToolTip": "UserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:29:52.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Employee.cs",
+              "RelativeToolTip": "Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:24:45.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:21:44.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PayrollForm.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\PayrollForm.cs",
+              "RelativeDocumentMoniker": "PayrollForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\PayrollForm.cs",
+              "RelativeToolTip": "PayrollForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:29:47.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PayrollForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\PayrollForm.cs",
+              "RelativeDocumentMoniker": "PayrollForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\PayrollForm.cs [Design]",
+              "RelativeToolTip": "PayrollForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:29:45.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Attendance.cs",
+              "RelativeDocumentMoniker": "Attendance.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Attendance.cs",
+              "RelativeToolTip": "Attendance.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAWwG4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:36:36.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AttendanceForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\AttendanceForm.cs",
+              "RelativeDocumentMoniker": "AttendanceForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\AttendanceForm.cs [Design]",
+              "RelativeToolTip": "AttendanceForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:28:34.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AttendanceForm.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\AttendanceForm.cs",
+              "RelativeDocumentMoniker": "AttendanceForm.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\AttendanceForm.cs",
+              "RelativeToolTip": "AttendanceForm.cs",
+              "ViewState": "AQIAAGUBAAAAAAAAAAAiwHMBAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:28:38.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Department.cs",
+              "RelativeDocumentMoniker": "Department.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Department.cs",
+              "RelativeToolTip": "Department.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCIAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:56:24.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeList.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\EmployeeList.cs",
+              "RelativeDocumentMoniker": "EmployeeList.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\EmployeeList.cs",
+              "RelativeToolTip": "EmployeeList.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:59:49.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:13:04.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:28:36.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\UserManager.cs",
+              "RelativeDocumentMoniker": "UserManager.cs",
+              "ToolTip": "C:\\Users\\duong\\Documents\\Zalo Received Files\\New folder\\UserManager.cs",
+              "RelativeToolTip": "UserManager.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAA9wDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:14:34.72Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

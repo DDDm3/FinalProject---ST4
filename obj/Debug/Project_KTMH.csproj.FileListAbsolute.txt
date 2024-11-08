@@ -1,0 +1,166 @@
+C:\Users\duong\Source\Repos\OOP_Project\obj\Debug\Project_KTMH.csproj.AssemblyReference.cache
+C:\Users\duong\Source\Repos\OOP_Project\obj\Debug\Project_KTMH.PayrollForm.resources
+C:\Users\duong\Source\Repos\OOP_Project\obj\Debug\Project_KTMH.UserForm.resources
+C:\Users\duong\Source\Repos\OOP_Project\obj\Debug\Project_KTMH.csproj.GenerateResource.cache
+C:\Users\duong\Source\Repos\OOP_Project\obj\Debug\Project_KTMH.Properties.Resources.resources
+C:\Users\duong\Source\Repos\OOP_Project\obj\Debug\Project_KTMH.csproj.CoreCompileInputs.cache
+C:\Users\duong\source\repos\OOP_Project\obj\Debug\Project_KTMH.EmployeeForm.resources
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\Project_KTMH.exe.config
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\Project_KTMH.exe
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\Project_KTMH.pdb
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Buffers.dll
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Memory.dll
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Text.Json.dll
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.ValueTuple.dll
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Buffers.xml
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Memory.xml
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Text.Json.xml
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\duong\source\repos\OOP_Project\bin\Debug\System.ValueTuple.xml
+C:\Users\duong\source\repos\OOP_Project\obj\Debug\Project_.683B003C.Up2Date
+C:\Users\duong\source\repos\OOP_Project\obj\Debug\Project_KTMH.exe
+C:\Users\duong\source\repos\OOP_Project\obj\Debug\Project_KTMH.pdb
+C:\Users\duong\source\repos\OOP_Project\obj\Debug\Project_KTMH.AttendanceForm.resources
+C:\Users\duong\source\repos\OOP_Project\obj\Debug\Project_KTMH.MainForm.resources
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\Project_KTMH.exe.config
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\Project_KTMH.exe
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\Project_KTMH.pdb
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Buffers.dll
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Memory.dll
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Text.Json.dll
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.ValueTuple.dll
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Buffers.xml
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Memory.xml
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Text.Json.xml
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Acer\source\repos\homework\OOP_Project\bin\Debug\System.ValueTuple.xml
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.AttendanceForm.resources
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.EmployeeForm.resources
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.MainForm.resources
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.PayrollForm.resources
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.Properties.Resources.resources
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.UserForm.resources
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_.683B003C.Up2Date
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.exe
+C:\Users\Acer\source\repos\homework\OOP_Project\obj\Debug\Project_KTMH.pdb
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\Project_KTMH.exe.config
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\Project_KTMH.exe
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\Project_KTMH.pdb
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Buffers.dll
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Memory.dll
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Text.Json.dll
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.ValueTuple.dll
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Buffers.xml
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Memory.xml
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Text.Json.xml
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\bin\Debug\System.ValueTuple.xml
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.csproj.AssemblyReference.cache
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.AttendanceForm.resources
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.EmployeeForm.resources
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.MainForm.resources
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.PayrollForm.resources
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.Properties.Resources.resources
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.UserForm.resources
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.csproj.GenerateResource.cache
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.csproj.CoreCompileInputs.cache
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_.683B003C.Up2Date
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.exe
+C:\Users\Danny Phong\Documents\Tài liệu học tập\OOP ĐỒ ÁN CUỐI KÌ\-FinalExam-Attendance-Program-master\OOP_Project\obj\Debug\Project_KTMH.pdb
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\Project_KTMH.exe.config
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\Project_KTMH.exe
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\Project_KTMH.pdb
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Buffers.dll
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Memory.dll
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Text.Json.dll
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.ValueTuple.dll
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Buffers.xml
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Memory.xml
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Text.Json.xml
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\bin\Debug\System.ValueTuple.xml
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.csproj.AssemblyReference.cache
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.AttendanceForm.resources
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.EmployeeForm.resources
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.MainForm.resources
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.PayrollForm.resources
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.Properties.Resources.resources
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.UserForm.resources
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.csproj.GenerateResource.cache
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.csproj.CoreCompileInputs.cache
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_.683B003C.Up2Date
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.exe
+C:\Users\duong\Documents\Zalo Received Files\OOP_Project\obj\Debug\Project_KTMH.pdb
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.csproj.AssemblyReference.cache
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.AttendanceForm.resources
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.EmployeeForm.resources
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.MainForm.resources
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.PayrollForm.resources
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.Properties.Resources.resources
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.UserForm.resources
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.csproj.GenerateResource.cache
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.csproj.CoreCompileInputs.cache
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.exe
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.pdb
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\Project_KTMH.exe.config
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\Project_KTMH.exe
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\Project_KTMH.pdb
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Buffers.dll
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Memory.dll
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Text.Json.dll
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.ValueTuple.dll
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Buffers.xml
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Memory.xml
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Text.Json.xml
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\duong\Documents\Zalo Received Files\New folder\bin\Debug\System.ValueTuple.xml
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_.683B003C.Up2Date
+C:\Users\duong\Documents\Zalo Received Files\New folder\obj\Debug\Project_KTMH.ReportForm.resources
