@@ -310,8 +310,37 @@ namespace Project_KTMH
         private void btn_Attendance_Click(object sender, EventArgs e)
         {
             AttendanceForm attForm = new AttendanceForm(GetEmployee());
+            this.CreateDailyRecord();
             attForm.Show();
+            List<Employee> employeeData = new List<Employee>();
+            List<Payroll> payrollData = new List<Payroll>();
 
+            // Phương thức để lấy toàn bộ danh sách (Employee, Payroll)
+            List<(Employee, Payroll)> empCopy = new List<(Employee, Payroll)>();
+
+            foreach ((Employee, Payroll) item in EmployeeList.emp)
+            {
+                empCopy.Add(item);
+            }
+
+            foreach ((Employee, Payroll) entry in empCopy)
+            {
+                if (!employeeData.Contains(entry.Item1))
+                {
+                    // Thêm nhân viên vào danh sách Employee
+                    employeeData.Add(entry.Item1);
+
+                    // Thêm bảng lương vào danh sách Payroll
+                    payrollData.Add(entry.Item2);
+                }
+            }
+
+            // Serialize danh sách nhân viên
+            string jsonEmployees = JsonSerializer.Serialize(employeeData, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText("employee.json", jsonEmployees);
+
+           
+           
             this.Close();
         }
 
@@ -347,16 +376,44 @@ namespace Project_KTMH
                 empCopy.Add(item);
             }
 
-            EmployeeList empList = new EmployeeList();
-            foreach ((Employee, Payroll) em in empCopy)
-            {
-                empList.AddEmployee(em.Item1, em.Item2);
-            }
-
-            ReportForm reportForm = new ReportForm(empList);
+            
+           
+            ReportForm reportForm = new ReportForm(GetEmployee());
             reportForm.Show();
 
             this.Close();
+        }
+        public void CreateDailyRecord()
+        {
+            DateTime today = DateTime.Today;
+
+            foreach ((Employee,Payroll) employee in EmployeeList.emp)
+            {
+                //List<Attendance> attendances = attendanceRecords[employee.EmployeeID1];
+
+                bool hasrecord = false;
+
+                for (int i = 0; i < employee.Item1.Attendances.Count; i++)
+                {
+                    if (employee.Item1.Attendances[i].Date.Date == today)
+                    {
+                        hasrecord = true;
+                        break;
+                    }
+                }
+
+                if (!hasrecord)
+                {
+                    
+                    Attendance attendance = new Attendance(DateTime.Today, TimeSpan.MinValue, false, "none", TimeSpan.MinValue, false, default);
+                    attendance.CheckInTime = TimeSpan.MinValue;
+                    attendance.CheckOutTime = TimeSpan.MinValue;
+
+                    employee.Item1.Attendances.Add(attendance);
+                  
+                    //attendanceRecords[employee.EmployeeID1].Add(attendance);
+                }
+            }
         }
     }
 }

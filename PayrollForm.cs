@@ -20,6 +20,7 @@ namespace Project_KTMH
         private Button btnDeletePayroll;
         private Label label1;
         private Label label2;
+        private Button button1;
         private Button btnAddPayroll;
 
 
@@ -165,7 +166,7 @@ namespace Project_KTMH
                 {
                     employee_tuple = emp;
                     baseSalary = emp.Item2.BaseSalary; // Lấy lương cơ bản từ Employee
-                    attendanceDay = emp.Item1.attendances.Count; // Đếm ngày công
+                    attendanceDay = emp.Item1.Attendances.Count; // Đếm ngày công
                     break;
                 }
             }
@@ -194,7 +195,7 @@ namespace Project_KTMH
             if (dgvPayrolls.CurrentRow != null)
             {
                 Payroll selectedPayroll = (Payroll)dgvPayrolls.CurrentRow.DataBoundItem;
-                selectedPayroll.BaseSalary = decimal.Parse(txtBaseSalary.Text);
+                //selectedPayroll.BaseSalary = decimal.Parse(txtBaseSalary.Text);
                 selectedPayroll.AttendanceDay = int.Parse(txtAttendanceDay.Text);
                 selectedPayroll.CalculateTotalSalary();
                 SavePayrollsToFile();
@@ -269,6 +270,7 @@ namespace Project_KTMH
             this.btnDeletePayroll = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPayrolls)).BeginInit();
             this.SuspendLayout();
             // 
@@ -286,21 +288,21 @@ namespace Project_KTMH
             // 
             this.cmbEmployees.Location = new System.Drawing.Point(12, 320);
             this.cmbEmployees.Name = "cmbEmployees";
-            this.cmbEmployees.Size = new System.Drawing.Size(200, 21);
+            this.cmbEmployees.Size = new System.Drawing.Size(200, 28);
             this.cmbEmployees.TabIndex = 1;
             // 
             // txtBaseSalary
             // 
             this.txtBaseSalary.Location = new System.Drawing.Point(112, 347);
             this.txtBaseSalary.Name = "txtBaseSalary";
-            this.txtBaseSalary.Size = new System.Drawing.Size(100, 20);
+            this.txtBaseSalary.Size = new System.Drawing.Size(100, 26);
             this.txtBaseSalary.TabIndex = 2;
             // 
             // txtAttendanceDay
-            //
+            // 
             this.txtAttendanceDay.Location = new System.Drawing.Point(112, 373);
             this.txtAttendanceDay.Name = "txtAttendanceDay";
-            this.txtAttendanceDay.Size = new System.Drawing.Size(100, 20);
+            this.txtAttendanceDay.Size = new System.Drawing.Size(100, 26);
             this.txtAttendanceDay.TabIndex = 3;
             // 
             // btnAddPayroll
@@ -335,22 +337,33 @@ namespace Project_KTMH
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(30, 350);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 13);
+            this.label1.Size = new System.Drawing.Size(106, 20);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Tổng lương";
+            this.label1.Text = "Lương cơ bản";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(7, 376);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 13);
+            this.label2.Size = new System.Drawing.Size(143, 20);
             this.label2.TabIndex = 15;
             this.label2.Text = "Tổng số ngày công";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(658, 414);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(154, 55);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // PayrollForm
             // 
             this.ClientSize = new System.Drawing.Size(826, 477);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvPayrolls);
@@ -365,11 +378,20 @@ namespace Project_KTMH
             ((System.ComponentModel.ISupportInitialize)(this.dgvPayrolls)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
         private void ClearInputs()
         {
             txtBaseSalary.Clear();
             txtAttendanceDay.Clear();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Employee ee = UserManager.GetEmployee();
+            MainForm mainform = new MainForm(ee);
+            mainform.Show();
+            this.Close();
         }
     }
 }
