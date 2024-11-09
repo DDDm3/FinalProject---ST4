@@ -28,14 +28,14 @@ namespace Project_KTMH
         public TimeSpan CheckInTime { get => checkInTime; set => checkInTime = value; }
         public TimeSpan CheckOutTime { get => checkOutTime; set => checkOutTime = value; }
 
-        public Attendance(DateTime date, TimeSpan checkInTime, bool checkIn, string status, TimeSpan checkOutTime, bool checkOut, TimeSpan otTime)
+        public Attendance(DateTime date, TimeSpan checkintime, bool checkin, string status, TimeSpan checkouttime, bool checkout, TimeSpan otTime)
         {
             this.Date = date.Date;
-            this.CheckInTime = checkInTime;
-            this.CheckIn = checkIn;
+            this.CheckInTime = checkintime;
+            this.CheckIn = checkin;
             this.Status = status;
-            this.CheckOutTime = checkOutTime;
-            this.CheckOut = checkOut;
+            this.CheckOutTime = checkouttime;
+            this.CheckOut = checkout;
             this.otTime = otTime;
         }
 

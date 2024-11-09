@@ -19,13 +19,13 @@ namespace Project_KTMH
         private System.Windows.Forms.Label lblAbsentDays;
         private System.Windows.Forms.Label lblWorkingHours;
         private System.Windows.Forms.Button btnBack;
-        public ReportForm(EmployeeList employeeList)
+        public ReportForm(Employee employee)
         {
             InitializeComponent();
             Report report = new Report();
-            this.txtWorkingHours.Text = $"{report.GetTotalHours(employeeList)}";
-            this.txtAbsentDays.Text = $"{report.GetAbsentDays(employeeList)}";
-            this.txtLateDays.Text = $"{report.GetLateDays(employeeList)}";
+            this.txtWorkingHours.Text = $"{report.GetTotalHours(employee)}";
+            this.txtAbsentDays.Text = $"{report.GetAbsentDays(employee)}";
+            this.txtLateDays.Text = $"{report.GetLateDays(employee)}";
         }
         private void InitializeComponent()
         {

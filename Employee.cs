@@ -18,6 +18,7 @@ namespace Project_KTMH
         public string RoleName { get; private set; }
 
         public List<Attendance> attendances = new List<Attendance>();
+        public List<Attendance> Attendances { get => attendances; set => attendances = value; }
         public Employee(string name, string email, DateTime dateofbirth, string phone_num, string address, string employeeID, string roleID, string departmentID, string roleName)
             : base(name, email, dateofbirth, phone_num, address)
         {
@@ -25,13 +26,13 @@ namespace Project_KTMH
             this.RoleID1 = roleID;
             this.RoleName = roleName;
             this.DepartmentID1 = departmentID;
-            this.attendances = new List<Attendance>();
+            this.Attendances = new List<Attendance>();
             CreateUser();
         }
 
         public Employee() : base()
         {
-            this.attendances = new List<Attendance>();
+            this.Attendances = new List<Attendance>();
         }
 
         public void CreateUser()
@@ -57,13 +58,15 @@ namespace Project_KTMH
             {
                 if (e.Item1.EmployeeID1 == employeeID)
                 {
-                    foreach (Attendance a in e.Item1.attendances)
+                    foreach (Attendance a in e.Item1.Attendances)
                     {
                         if (a.CheckIn && a.CheckOut)
                         {
                             count += 8;
                         }
+
                     }
+                    
                 }
             }
             return count;
@@ -76,13 +79,16 @@ namespace Project_KTMH
             {
                 if(e.Item1.EmployeeID1 == employeeID)
                 {
-                    foreach(Attendance a in e.Item1.attendances)
+                    foreach(Attendance a in e.Item1.Attendances)
                     {
                         if(a.Status == "late")
                         {
                             count++;
-                        }    
-                    }    
+                            
+                        } 
+                        
+                    }  
+                    
                 }    
             }    
             return count;
@@ -95,13 +101,15 @@ namespace Project_KTMH
             {
                 if (e.Item1.EmployeeID1 == employeeID)
                 {
-                    foreach(Attendance a in e.Item1.attendances)
+                    foreach(Attendance a in e.Item1.Attendances)
                     {
                         if(!a.CheckIn)
                         {
                             count ++;
-                        }    
+                        } 
+                        
                     }
+                    
                 }         
             }
             return count;

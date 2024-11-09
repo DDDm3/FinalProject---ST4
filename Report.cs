@@ -30,34 +30,30 @@ namespace Project_KTMH
             }
         }
 
-        public double GetTotalHours(EmployeeList employees)
+        public double GetTotalHours(Employee employee)
         {
-            foreach ((Employee, Payroll) employee in EmployeeList.emp)
-            {
-                double totalHours = employee.Item1.GetTotalWorkingHours(employee.Item1.EmployeeID1);
+            
+                double totalHours = employee.GetTotalWorkingHours(employee.EmployeeID1);
                 return totalHours;
-            }
+            
             return 0;
         }
 
-        public int GetLateDays(EmployeeList employees)
+        public int GetLateDays(Employee employee)
         {
-            foreach ((Employee, Payroll) employee in EmployeeList.emp)
-            {
-                int lateDays = employee.Item1.GetLateDaysCount(employee.Item1.EmployeeID1);
-                return lateDays;
-            }
-            return 0;
+
+            int lateDays = employee.GetLateDaysCount(employee.EmployeeID1);
+            return lateDays;
+
+
         }
 
-        public int GetAbsentDays(EmployeeList employees)
+        public int GetAbsentDays(Employee employee)
         {
-            foreach ((Employee, Payroll) employee in EmployeeList.emp)
-            {
-                int absentDays = employee.Item1.GetAbsentDaysCount(employee.Item1.EmployeeID1);
-                return absentDays;
-            }
-            return 0;
+
+            int absentDays = employee.GetAbsentDaysCount(employee.EmployeeID1);
+            return absentDays;
+
         }
     }
 }

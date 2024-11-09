@@ -62,17 +62,25 @@ namespace Project_KTMH
 
         public List<Attendance> AddAttendance()
         {
+            if (AttendanceList == null)
+            {
+                AttendanceList = new List<Attendance>();
+            }
+
             foreach ((Employee, Payroll) e in EmployeeList.emp)
             {
                 if (this.EmployeeID == e.Item1.EmployeeID1)
                 {
-                    foreach (Attendance attendance in e.Item1.attendances)
-                    {
-                        if (attendance.CheckIn && attendance.CheckOut)
-                        {
-                            AttendanceList.Add(attendance);
-                        }
 
+                    if (e.Item1.attendances != null)
+                    {
+                        foreach (Attendance attendance in e.Item1.attendances)
+                        {
+                            if (attendance.CheckIn && attendance.CheckOut)
+                            {
+                                AttendanceList.Add(attendance);
+                            }
+                        }
                     }
                 }
             }
