@@ -1,0 +1,181 @@
+[
+  {
+    "PayrollID": "bot1",
+    "DepartmentID": "bot",
+    "EmployeeID": "bot001",
+    "EmployeeName": "Bot",
+    "SalaryCoefficient": 1.0,
+    "SalaryCoefficientDepartment": 1.0,
+    "SalaryCoefficientPosition": 1.0,
+    "BaseSalary": 5000000,
+    "OvertimeSalary": 0,
+    "TotalSalary": 5000000,
+    "AttendanceDay": 20,
+    "AttendanceList": [
+      {"Date": "2024-11-01", "IsPresent": true, "OvertimeHours": 0},
+      {"Date": "2024-11-02", "IsPresent": true, "OvertimeHours": 0}
+    ],
+    "BHXH": 500000,
+    "BHYT": 300000,
+    "Bonus": 0,
+    "Tax": 10,
+    "TotalDeductions": 800000,
+    "CalculationDate": "2024-11-09T17:54:00+07:00"
+  },
+  {
+    "PayrollID": "bot002",
+    "DepartmentID": "bot",
+    "EmployeeID": "bot002",
+    "EmployeeName": "Unknown",
+    "SalaryCoefficient": 1.0,
+    "SalaryCoefficientDepartment": 1.0,
+    "SalaryCoefficientPosition": 1.0,
+    "BaseSalary": 4000000,
+    "OvertimeSalary": 0,
+    "TotalSalary": 4000000,
+    "AttendanceDay": 20,
+    "AttendanceList": [
+      {"Date": "2024-11-01", "IsPresent": true, "OvertimeHours": 0},
+      {"Date": "2024-11-02", "IsPresent": true, "OvertimeHours": 0}
+    ],
+    "BHXH": 400000,
+    "BHYT": 250000,
+    "Bonus": 0,
+    "Tax": 10,
+    "TotalDeductions": 650000,
+    "CalculationDate": "2024-11-09T17:54:00+07:00"
+  },
+  {
+    "PayrollID": "bot0012",
+    "DepartmentID": "bot",
+    "EmployeeID": "bot0012",
+    "EmployeeName": "Unknown",
+    "SalaryCoefficient": 1.0,
+    "SalaryCoefficientDepartment": 1.0,
+    "SalaryCoefficientPosition": 1.0,
+    "BaseSalary": 4500000,
+    "OvertimeSalary": 0,
+    "TotalSalary": 4500000,
+    "AttendanceDay": 20,
+    "AttendanceList": [
+      {"Date": "2024-11-01", "IsPresent": true, "OvertimeHours": 0},
+      {"Date": "2024-11-02", "IsPresent": true, "OvertimeHours": 0}
+    ],
+    "BHXH": 450000,
+    "BHYT": 200000,
+    "Bonus": 0,
+    "Tax": 10,
+    "TotalDeductions": 650000,
+    "CalculationDate": "2024-11-09T17:54:00+07:00"
+  },
+  {
+    "PayrollID": "nv002",
+    "DepartmentID": "sales",
+    "EmployeeID": "nv002",
+    "EmployeeName": "Nguyễn Văn A",
+    "SalaryCoefficient": 1.2,
+    "SalaryCoefficientDepartment": 1.1,
+    "SalaryCoefficientPosition": 1.0,
+    "BaseSalary": 5500000,
+    "OvertimeSalary": 500000,
+    "TotalSalary": 6000000,
+    "AttendanceDay": 20,
+    "AttendanceList": [
+      {"Date": "2024-11-01", "IsPresent": true, "OvertimeHours": 2}
+    ],
+    "BHXH": 550000,
+    "BHYT": 250000,
+    "Bonus": 200000,
+    "Tax": 10,
+    "TotalDeductions": 800000,
+    "CalculationDate": "2024-11-09T17:54:00+07:00"
+  },
+  {
+    "PayrollID": "nv003",
+    "DepartmentID": "hr",
+    "EmployeeID": "nv003",
+    "EmployeeName": "Trần Thị B",
+    "SalaryCoefficient": 1.1,
+    "SalaryCoefficientDepartment": 1.0,
+    "SalaryCoefficientPosition": 1.0,
+    "BaseSalary": 5200000,
+    "OvertimeSalary": 300000,
+    "TotalSalary": 5500000,
+    "AttendanceDay": 20,
+    "AttendanceList": [
+      {"Date": "2024-11-01", "IsPresent": true, "OvertimeHours": 1.5}
+    ],
+    "BHXH": 500000,
+    "BHYT": 200000,
+    "Bonus": 150000,
+    "Tax": 10,
+    "TotalDeductions": 700000,
+    "CalculationDate": "2024-11-09T17:54:00+07:00"
+  },
+  {
+    "PayrollID": "nv004",
+    "DepartmentID": "it",
+    "EmployeeID": "nv004",
+    "EmployeeName": "Phạm Minh C",
+    "SalaryCoefficient": 1.3,
+    "SalaryCoefficientDepartment": 1.2,
+    "SalaryCoefficientPosition": 1.1,
+    "BaseSalary": 6000000,
+    "OvertimeSalary": 600000,
+    "TotalSalary": 6600000,
+    "AttendanceDay": 20,
+    "AttendanceList": [
+      {"Date": "2024-11-01", "IsPresent": true, "OvertimeHours": 3}
+    ],
+    "BHXH": 600000,
+    "BHYT": 300000,
+    "Bonus": 300000,
+    "Tax": 10,
+    "TotalDeductions": 900000,
+    "CalculationDate": "2024-11-09T17:54:00+07:00"
+  },
+  {
+    "PayrollID": "nv005",
+    "DepartmentID": "marketing",
+    "EmployeeID": "nv005",
+    "EmployeeName": "Lê Thị D",
+    "SalaryCoefficient": 1.1,
+    "SalaryCoefficientDepartment": 1.0,
+    "SalaryCoefficientPosition": 1.0,
+    "BaseSalary": 4800000,
+    "OvertimeSalary": 200000,
+    "TotalSalary": 5000000,
+    "AttendanceDay": 20,
+    "AttendanceList": [
+      {"Date": "2024-11-01", "IsPresent": true, "OvertimeHours": 1}
+    ],
+    "BHXH": 480000,
+    "BHYT": 200000,
+    "Bonus": 100000,
+    "Tax": 10,
+    "TotalDeductions": 680000,
+    "CalculationDate": "2024-11-09T17:54:00+07:00"
+  },
+  {
+    "PayrollID": "nv006",
+    "DepartmentID": "finance",
+    "EmployeeID": "nv006",
+    "EmployeeName": "Hoàng Văn E",
+    "SalaryCoefficient": 1.0,
+    "SalaryCoefficientDepartment": 1.0,
+    "SalaryCoefficientPosition": 1.0,
+    "BaseSalary": 4600000,
+    "OvertimeSalary": 150000,
+    "TotalSalary": 4750000,
+    "AttendanceDay": 20,
+    "AttendanceList": [
+      {"Date": "2024-11-01", "IsPresent": true, "OvertimeHours": 0.5}
+    ],
+    "BHXH": 460000,
+    "BHYT": 180000,
+    "Bonus": 50000,
+    "Tax": 10,
+    "TotalDeductions": 690000,
+    "CalculationDate": "2024-11-09T17:54:00+07:00"
+  }
+]
