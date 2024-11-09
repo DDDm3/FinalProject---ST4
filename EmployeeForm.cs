@@ -366,14 +366,91 @@ namespace Project_KTMH
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            string employeeID = txtEmployeeID.Text;
+            foreach((Employee, Payroll) emp in EmployeeList.emp)
+            {
+                if(emp.Item1.EmployeeID1 == employeeID)
+                {
+                    UpdateEmployee1(txtEmployeeID.Text, txtName.Text, txtAddress.Text, txtEmail.Text, dtpDOB.Value, txtPhone.Text, txtRoleID.Text, txtDepartmentID.Text, txtRoleName.Text);
+                    break;
+                }    
+            }
 
-            UpdateEmployee1(txtEmployeeID.Text, txtName.Text, txtAddress.Text, txtEmail.Text, dtpDOB.Value, txtPhone.Text, txtRoleID.Text, txtDepartmentID.Text, txtRoleName.Text);
+            List<Employee> employeeData = new List<Employee>();
+            List<Payroll> payrollData = new List<Payroll>();
+
+            // Phương thức để lấy toàn bộ danh sách (Employee, Payroll)
+            List<(Employee, Payroll)> empCopy = new List<(Employee, Payroll)>();
+
+            foreach ((Employee, Payroll) item in EmployeeList.emp)
+            {
+                empCopy.Add(item);
+            }
+
+            foreach ((Employee, Payroll) entry in empCopy)
+            {
+                if (!employeeData.Contains(entry.Item1))
+                {
+                    // Thêm nhân viên vào danh sách Employee
+                    employeeData.Add(entry.Item1);
+
+                    // Thêm bảng lương vào danh sách Payroll
+                    payrollData.Add(entry.Item2);
+                }
+            }
+
+            // Serialize danh sách nhân viên
+            string jsonEmployees = JsonSerializer.Serialize(employeeData, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText("employee.json", jsonEmployees);
+
+            // Serialize danh sách bảng lương
+            string jsonPayrolls = JsonSerializer.Serialize(payrollData, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText("payroll.json", jsonPayrolls);
+
+
         }
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
+            string employeeID = txtEmployeeID.Text;
+            foreach ((Employee, Payroll) emp in EmployeeList.emp)
+            {
+                if (emp.Item1.EmployeeID1 == employeeID)
+                {
+                    RemoveEmployee(txtEmployeeID.Text);
+                    break;
+                }
+            }
+            List<Employee> employeeData = new List<Employee>();
+            List<Payroll> payrollData = new List<Payroll>();
 
-            RemoveEmployee(txtEmployeeID.Text);
+            // Phương thức để lấy toàn bộ danh sách (Employee, Payroll)
+            List<(Employee, Payroll)> empCopy = new List<(Employee, Payroll)>();
+
+            foreach ((Employee, Payroll) item in EmployeeList.emp)
+            {
+                empCopy.Add(item);
+            }
+
+            foreach ((Employee, Payroll) entry in empCopy)
+            {
+                if (!employeeData.Contains(entry.Item1))
+                {
+                    // Thêm nhân viên vào danh sách Employee
+                    employeeData.Add(entry.Item1);
+
+                    // Thêm bảng lương vào danh sách Payroll
+                    payrollData.Add(entry.Item2);
+                }
+            }
+
+            // Serialize danh sách nhân viên
+            string jsonEmployees = JsonSerializer.Serialize(employeeData, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText("employee.json", jsonEmployees);
+
+            // Serialize danh sách bảng lương
+            string jsonPayrolls = JsonSerializer.Serialize(payrollData, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText("payroll.json", jsonPayrolls);
         }
         
         private void UpdateEmployee1(string employeeID, string name, string address, string email, DateTime dateofbirth, string phone, string roleID, string departmentID, string roleName)
@@ -384,21 +461,7 @@ namespace Project_KTMH
                 {
                     e.Item1.UpdateEmployee(name, email, dateofbirth, phone, address, roleID, departmentID, roleName);
                     MessageBox.Show("Employee updated successfully!");
-
-                    // Tạo bản sao của danh sách để tránh lỗi
-                    List<(Employee, Payroll)> empCopy = new List<(Employee, Payroll)>();
-
-                    foreach ((Employee, Payroll) item in EmployeeList.emp)
-                    {
-                        empCopy.Add(item);
-                    }
-
-                    foreach ((Employee, Payroll) em in empCopy)
-                    {
-                        string json1 = JsonSerializer.Serialize(em.Item1, new JsonSerializerOptions { WriteIndented = true });
-                        string filePath1 = "employee.json";
-                        File.WriteAllText(filePath1, json1);
-                    }
+                    break;
                 }
                 else
                 {
@@ -416,21 +479,9 @@ namespace Project_KTMH
             if (removed)
             {
                 // Tạo bản sao của danh sách để tránh lỗi
-                List<(Employee, Payroll)> empCopy = new List<(Employee, Payroll)>();
-
-                foreach ((Employee, Payroll) item in EmployeeList.emp)
-                {
-                    empCopy.Add(item);
-                }
-
-                foreach ((Employee, Payroll) em in empCopy)
-                {
-                    string json1 = JsonSerializer.Serialize(em.Item1, new JsonSerializerOptions { WriteIndented = true });
-                    string filePath1 = "employee.json";
-                    File.WriteAllText(filePath1, json1);
-                }
 
                 MessageBox.Show("Employee removed successfully!");
+
             }
             else
             {

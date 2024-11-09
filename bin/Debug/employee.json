@@ -3,33 +3,88 @@
     "EmployeeID1": "bot001",
     "RoleID1": "bot001b",
     "DepartmentID1": "bot",
-    "RoleName": "bot",
-    "Name": "bot",
-    "Email": "bot.cty@ueh.edu",
-    "DateOfBirth": "0001-01-01T00:00:00",
-    "Phone_num": "00000000",
-    "Address": "123 ABC"
+    "RoleName": "Manager",
+    "Name": "Bot",
+    "Email": "bot001@ueh.edu",
+    "DateOfBirth": "1990-01-01T00:00:00",
+    "Phone_num": "0123456789",
+    "Address": "123 ABC Street"
   },
   {
     "EmployeeID1": "nv001",
     "RoleID1": "bot001b",
     "DepartmentID1": "bot",
-    "RoleName": "bot",
+    "RoleName": "Employee",
     "Name": "Na",
-    "Email": "bot.cty@ueh.edu",
-    "DateOfBirth": "2024-11-08T19:15:37.1061688+07:00",
-    "Phone_num": "00000000",
-    "Address": "123 ABC"
+    "Email": "na@ueh.edu",
+    "DateOfBirth": "1995-11-08T00:00:00",
+    "Phone_num": "0987654321",
+    "Address": "456 DEF Street"
   },
   {
     "EmployeeID1": "bot002",
     "RoleID1": "bot001b",
     "DepartmentID1": "bot",
-    "RoleName": "bot",
-    "Name": "",
-    "Email": "bot.cty@ueh.edu",
-    "DateOfBirth": "2024-11-08T19:30:34.0777793+07:00",
+    "RoleName": "Staff",
+    "Name": "Unknown",
+    "Email": "bot002@ueh.edu",
+    "DateOfBirth": "1992-11-08T00:00:00",
     "Phone_num": "00000000",
-    "Address": "123 ABC"
+    "Address": "789 GHI Street"
+  },
+  {
+    "EmployeeID1": "nv002",
+    "RoleID1": "nv002b",
+    "DepartmentID1": "sales",
+    "RoleName": "Nhân viên kinh doanh",
+    "Name": "Nguyễn Văn A",
+    "Email": "nguyenvana@ueh.edu",
+    "DateOfBirth": "1993-05-12T00:00:00",
+    "Phone_num": "0938123456",
+    "Address": "123 Đường ABC, Quận 1, TP.HCM"
+  },
+  {
+    "EmployeeID1": "nv003",
+    "RoleID1": "nv003b",
+    "DepartmentID1": "hr",
+    "RoleName": "Nhân viên nhân sự",
+    "Name": "Trần Thị B",
+    "Email": "tranthib@ueh.edu",
+    "DateOfBirth": "1996-08-20T00:00:00",
+    "Phone_num": "0945678910",
+    "Address": "456 Đường DEF, Quận 3, TP.HCM"
+  },
+  {
+    "EmployeeID1": "nv004",
+    "RoleID1": "nv004b",
+    "DepartmentID1": "it",
+    "RoleName": "Kỹ sư phần mềm",
+    "Name": "Phạm Minh C",
+    "Email": "phamminhc@ueh.edu",
+    "DateOfBirth": "1994-12-15T00:00:00",
+    "Phone_num": "0912345678",
+    "Address": "789 Đường GHI, Quận 7, TP.HCM"
+  },
+  {
+    "EmployeeID1": "nv005",
+    "RoleID1": "nv005b",
+    "DepartmentID1": "marketing",
+    "RoleName": "Chuyên viên Marketing",
+    "Name": "Lê Thị D",
+    "Email": "lethid@ueh.edu",
+    "DateOfBirth": "1992-10-10T00:00:00",
+    "Phone_num": "0909123456",
+    "Address": "123 Đường JKL, Quận Bình Thạnh, TP.HCM"
+  },
+  {
+    "EmployeeID1": "nv006",
+    "RoleID1": "nv006b",
+    "DepartmentID1": "finance",
+    "RoleName": "Kế toán",
+    "Name": "Hoàng Văn E",
+    "Email": "hoangvane@ueh.edu",
+    "DateOfBirth": "1997-03-25T00:00:00",
+    "Phone_num": "0976543210",
+    "Address": "789 Đường MNO, Quận Phú Nhuận, TP.HCM"
   }
 ]
